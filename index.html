@@ -10,18 +10,30 @@
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: column;
+            align-items: center;
             justify-content: center;
-        }
-        .container{
-            display: flex;           
+            background-color: #515561;
         }
 
-        .add{
-            background-color: blue;
-            border: 1px solid aquamarine;
-            min-height: 12px;
-            min-width: 12px;
-            padding: 12px;
+        .container{
+            display: flex;
+            height: 500px;
+            width: 500px;            
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+        .gridItem{
+            background-color: #D8B199;
+            border: 1px solid #515561;
+            flex: 1;
+        }
+
+        .gridWrapper{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
         }
     </style>
 </head>

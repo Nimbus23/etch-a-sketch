@@ -9,7 +9,7 @@ function makeDiv(){
             gridItem.setAttribute("class", "add");
             gridWrapper.appendChild(gridItem);
             container.appendChild(gridWrapper);
-            gridItem.addEventListener("mouseenter", () => { gridItem.setAttribute("style", "background-color: yellow;") });
+            gridItem.addEventListener("mouseenter", () => { gridItem.setAttribute("style", "background-color: #B28474;") });
 
         }
     }
